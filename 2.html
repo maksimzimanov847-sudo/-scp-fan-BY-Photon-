@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> scp-fan</title>
+  <link rel="stylesheet" href="photon-kit.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/png" href="./ikon/logo.svg">
+  <script src="photon-kit.js" defer></script>
+</head>
+<body>
+<nav class="navbar">
+  <a href="./1.html" class="navbar__brand">
+    <span style="width: 100px;"class="navbar__brand-icon"><img  src="./ikon/logo.svg" alt=""></span>
+    scp-fan
+  </a>
+  <button class="navbar__toggle" type="button" aria-label="Меню">
+    <span class="navbar__toggle-icon">
+      <span></span><span></span><span></span>
+    </span>
+  </button>
+  <div class="navbar__menu">
+    <a href="./1.html" class="navbar__link active">Главная</a>
+    <a href="./4.html" class="navbar__link">Мобильные оперативные группы</a>
+    <a href="./5.html" class="navbar__link">Конкуренты фонда</a>
+    <a href="./6.html" class="navbar__link">Интересные материалы</a>
+
+  </div>
+  <div class="navbar__actions">
+    <a href="./3.html" class="btn btn--primary btn--sm">Войти</a>
+   <a href="./2.html" class="btn btn--primary btn--sm">Регистрация</a>  
+  </div>
+  <div class="theme-switch" data-theme-switch>
+  <span class="theme-switch__label">Светлая</span>
+  <div class="theme-switch__track">
+    <div class="theme-switch__thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></div>
+  </div>
+</div>
+</nav>
+<center>
+  <!-- Создать аккаунт -->
+ <form  class="scp-form">
+  <div class="card card--glass" style="max-width:400px;">
+  <div style="text-align:center;">
+    <h3>Создать аккаунт</h3>
+    <p>Присоединяйтесь к scp-fan</p>
+  </div>
+  <form class="pk-form">
+    <div class="form-group">
+      <label class="form-label">Email</label>
+      <input type="email" class="input"
+        data-validate="required email" />
+    </div>
+    <div class="form-group">
+      <label class="form-label">Имя</label>
+      <input type="name" class="input"
+        data-validate="required"
+        data-validate-length="10" />
+    </div>
+    <div class="form-group">
+      <label class="form-label">Пароль</label>
+      <input type="password" class="input"
+        data-validate="required"
+        data-validate-length="6" />
+    </div>
+    <button type="submit"
+      class="btn btn--primary pk-form-submit"
+      style="width:50;">
+      Создать аккаунт
+    </button>
+    <p>Уже есть аккаунт? <a href="./3.html">Войти</a></p>
+  </form>
+ </center>
+
+</div>
+</div>
+</form>
+</body>
+</html>
