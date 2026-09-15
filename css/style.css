@@ -1,0 +1,88 @@
+/*Тело сайта*/
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* Тёмная тема */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: url('../img/maxresdefault2.jpg');
+  }
+}
+
+/* Светлая тема*/
+body.theme-dark {
+  background-image: url('../img/maxresdefault.jpg') !important;
+}
+/*Заголовки*/
+.title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #912b8c;
+}
+/*Для ссылок шапки*/
+.navbar__link{
+    color: #912b8c;
+}
+/*Для названия сайта на шапке*/
+.navbar__brand{
+    color: #912b8c;
+}
+/*Для кнопки добавить объект*/
+#crate{
+   margin-top: 20px;
+    margin-bottom: 20px; 
+    margin-left: 800px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/*Для полей вода данных об аномалии в окне добавить объект*/
+#modalDefault12 input{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+/*Ширина полей вводадля окна добавления объекта*/
+#crate1{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+/*Для расположения полей ввода данных об аномалиях в окне добавить объект*/
+.scp-form {
+    margin-top: 50px;
+}
+/*Для кнопки добавления фото в модальном окне  для добавления объекта*/
+.pk-upload button{
+margin-top: 30px;
+margin-bottom: 30px;
+ padding-left: 150px;
+padding-right: 150px;
+}
+/*Для расположения карточек мобильных оперативных групп 4 страница*/
+.task--force{
+    display: flex !important;
+    gap: 15px;
+
+}
+/*Для расположения карточек Досье на другие организации, которые занимаются исследованием аномального 5 страница*/
+.organizations {
+    display: inline-block !important; 
+    max-width: 100% !important;
+    margin: 0 !important;
+    
+}
+/*Для расположения карточек Интересные каналы по SCP */
+.recommended-channel{
+ display: inline-flex !important; 
+    max-width: 100% !important;
+    margin: 0 !important;   
+}
+/*Для копирайта*/
+.footer__desc{
+      color: #912b8c;
+}
+/*Для названия сайта в подвале*/
+.footer__brand{
+     color: #912b8c;
+}

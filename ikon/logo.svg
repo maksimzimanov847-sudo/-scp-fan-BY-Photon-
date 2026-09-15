@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 608.23 251.89">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+        opacity: .36;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-2, .cls-4 {
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        fill: #231f20;
+      }
+
+      .cls-3 {
+        stroke-width: 10px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: url(#radial-gradient-2);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="190.18" cy="77.53" fx="190.18" fy="77.53" r="16.69" gradientTransform="translate(-697.49 -221.83) scale(4.9 4.48)" gradientUnits="userSpaceOnUse">
+      <stop offset=".09" stop-color="#bd00ff"/>
+      <stop offset=".52" stop-color="#301c33"/>
+      <stop offset=".85" stop-color="#880bb2"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="190.18" cy="110.13" fx="190.18" fy="110.13" r="6.33" gradientTransform="translate(-697.49 -599.37) scale(4.9 6.62)" gradientUnits="userSpaceOnUse">
+      <stop offset=".09" stop-color="#000"/>
+      <stop offset=".69" stop-color="#301c33"/>
+      <stop offset=".83" stop-color="#2a192d"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="152.73" y1="125.18" x2="314.27" y2="125.18" gradientUnits="userSpaceOnUse">
+      <stop offset=".08" stop-color="#fff"/>
+      <stop offset=".52" stop-color="#301c33"/>
+    </linearGradient>
+  </defs>
+  <ellipse class="cls-4" cx="233.5" cy="135.18" rx="126.55" ry="115.71"/>
+  <path class="cls-5" d="M605.82,5c3.22,0,3.22-5,0-5s-3.22,5,0,5h0Z"/>
+  <ellipse class="cls-2" cx="233.5" cy="125.18" rx="72.32" ry="82.4"/>
+  <ellipse class="cls-6" cx="233.5" cy="130.03" rx="31" ry="41.94"/>
+  <ellipse class="cls-1" cx="233.5" cy="125.18" rx="80.77" ry="95.32"/>
+  <path class="cls-3" d="M358.35,126.83c0-59.3-55.9-107.36-124.85-107.36s-124.85,48.07-124.85,107.36"/>
+</svg>
